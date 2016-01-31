@@ -3,6 +3,7 @@
 #include <string>
 #include "ros/ros.h"
 #include <rosbag/bag.h>
+#include <ros/package.h>
 #include "std_msgs/String.h"
 #include "std_msgs/Float32.h"
 #include <sensor_msgs/Image.h>

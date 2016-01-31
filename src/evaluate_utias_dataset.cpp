@@ -362,8 +362,11 @@ void ImageOverlayer::OverlayEstimatedRobotPose(double x, double y, double z, dou
 void ImageOverlayer::utiasMHLSCallback(const utiasdata_to_rosbags::MCLAM_RobotTeamState::ConstPtr& msg, IplImage* img_)
 {
    
+  char backgroundImageName[500];
+  strcpy(backgroundImageName,(ros::package::getPath("evaluate_utias_dataset")).c_str());
+  strcat(backgroundImageName,"/resources/background_real.jpg");
   
-  img_=cvLoadImage("/home/aamir/catkin_ws/src/background_real.jpg");
+  img_=cvLoadImage(backgroundImageName);
  
   //MakeGroundPlaneX(color_est[1],img_);
   //MakeGroundPlaneY(color_est[1],img_);
