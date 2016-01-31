@@ -26,4 +26,4 @@ Pre-requisites
 Instructions to use this package.
 ==================================
 0. Note that running this package makes sense only with the mhls_utias_dataset package.
-1. The best way to use this package is to uncomment the <node> for this package in any of the launch files provided with the mhls_utias_dataset package
+1. The best way to use this package is to uncomment the node line for this package in any of the launch files provided with the mhls_utias_dataset package
