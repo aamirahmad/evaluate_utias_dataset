@@ -1,4 +1,3 @@
-# evaluate_utias_dataset
 ==================================
 evaluate_utias_dataset
 ==================================
@@ -12,8 +11,8 @@ Pre-requisites
 1. Make sure you have ros indigo installed
 2. Make sure you have the following package installed and the message files provided in this package built.
 
-    https://github.com/aamirahmad/utiasdata_to_rosbags
-    https://github.com/aamirahmad/mhls_utias_dataset
+    1. https://github.com/aamirahmad/utiasdata_to_rosbags
+    2. https://github.com/aamirahmad/mhls_utias_dataset
     
 3. Make sure you have latest versions of the following libraries installed
 
