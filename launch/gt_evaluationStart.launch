@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<launch>
+    <node name="evaluate_utias_dataset" pkg="evaluate_utias_dataset" type="evaluate_utias_dataset" args="/store/DataSet_Lisbon/GT_Images/4_Robot_Exp/Right/" output="screen" />
+</launch>
